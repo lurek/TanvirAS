@@ -1,5 +1,49 @@
-
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-.title{
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600i');
+body{
+	margin: 0;
+}
+.title {
     font-family: 'Lobster', cursive;
+	text-align: center;
+}
+.clearfix {
+	overflow: auto;
+}
+.image {
+	height: 40%;
+	width: 40%;
+	float: left;
+	border-radius: 50%;
+	padding: 7px;
+	border: 2px solid #f2f2f2
+}
+.copy{
+	background-color: #332;
+	text-align: center;
+	color: white;
+	padding: 15px 17px;
+	font-size; 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #332;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 17px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
 }

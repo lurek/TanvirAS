@@ -1,8 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600i');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang:500i');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300');
 body{
 	margin: 0;
+}
+input[type=text] {
+	width: 90%;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=email] {
+	width: 90%;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#message {
+	width: 90%;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
 }
 .title {
     font-family: 'Lobster', cursive;
@@ -11,15 +43,31 @@ body{
 .clearfix {
 	overflow: auto;
 }
+.info-title {
+    font-family: 'Fahkwang', sans-serif;
+	font-size: 18px;
+}
+.info {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16px;
+}
 .image {
 	height: 40%;
 	width: 40%;
 	float: left;
 	border-radius: 50%;
 	padding: 7px;
-	border: 2px solid #f2f2f2
+	border: 2px solid #4CAF50;
 }
-.copy{
+.image2 {
+	height: 35%;
+	width: 35%;
+	float: left;
+	border: 2px solid #4CAF50;
+	border-radius: 10%;
+	
+}
+footer {
 	background-color: #332;
 	text-align: center;
 	color: white;
